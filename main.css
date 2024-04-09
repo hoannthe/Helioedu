@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding:0;
+    height: 100%;
+}
+
+
+
+#header{
+    display: flex;
+    text-align: center;
+    background: rgba(37, 209, 157, 0.839);
+    text-align:left 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+}
+
+#main_content{
+    display: flex;
+    min-height: 500px;
+
+}
+
+#content{
+    flex-basis: 70%;
+    width: 70%;
+}
+
+#sideBar{
+    flex-basis: 30%;
+    background: honeydew;
+    
+}
+
+#footer{
+    background: rgb(212, 207, 207);
+    text-align: center;
+    padding: 20px;
+}
